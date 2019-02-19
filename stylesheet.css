@@ -1,8 +1,16 @@
+@font-face{
+	font-family: "Classroom";
+	src: url('Classroom-Thin.eot'); /* IE9 Compat Modes */
+  src: url('Classroom-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Classroom-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Classroom-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+       url('Classroom-Thin.ttf')  format('truetype'); /* Legacy iOS */
+}
 body{
 	/*color:#131f75;*/
 	color:black;
-	font-family: sans-serif;
-	margin-bottom: 100vh;
+	font-family:  "Classroom", sans-serif;
+	margin-bottom: 20vh;
 	background-color: white;
 }
 #caption{
