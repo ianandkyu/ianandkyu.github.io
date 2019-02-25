@@ -71,6 +71,7 @@ nav a:link, a:visited{
 main{
 	font-size: 1.23em;
 	margin:3em;
+	font-weight:normal;
 }
 article{}
 h1, h2, h3{
