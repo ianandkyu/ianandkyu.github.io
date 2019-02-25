@@ -1,21 +1,17 @@
-@font-face{
-	font-family: "Classroom";
-	src: url('Classroom-Thin.eot'); /* IE9 Compat Modes */
-  src: url('Classroom-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('Classroom-Thin.woff2') format('woff2'), /* Super Modern Browsers */
-       url('Classroom-Thin.woff') format('woff'), /* Pretty Modern Browsers */
-       url('Classroom-Thin.ttf')  format('truetype'); /* Legacy iOS */
+:root{
+	font-size: 28px;
 }
 body{
 	/*color:#131f75;*/
 	color:black;
-	font-family:  "Classroom", sans-serif;
+	font-family: sans-serif;
+	font-weight: bold;
 	margin-bottom: 20vh;
 	background-color: white;
 }
-main{
-width:600px;
-max-width:100%;}
+#curve{
+	background-color: transparent;
+}
 #caption{
 	text-align: center;
 	width:100%;
@@ -53,6 +49,19 @@ header{
 	-o-animation-delay:.5s;
 	animation-delay: .5s;
 }
+main{
+	max-width: 100%;
+	width:900px;
+	margin:1em;
+
+	/*margin:0 auto;*/
+}
+article{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: baseline;
+}
 nav{
 	display: flex;
 	flex-flow: row wrap;
@@ -72,10 +81,13 @@ nav a:link, a:visited{
 }
 h1, h2, h3{
 	font-size: 1em;
-	font-weight:normal;
 	color:inherit;
+	width:400px;
 }
 
+textpath{
+	text-indent: 1em;
+}
 @-webkit-keyframes blink {
 	0% { opacity: 1; }
 	50% { opacity: 1; }
