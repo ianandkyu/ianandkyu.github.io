@@ -14,7 +14,8 @@ body{
 	background-color: white;
 }
 main{
-margin:9em;}
+width:600px;
+max-width:100%;}
 #caption{
 	text-align: center;
 	width:100%;
