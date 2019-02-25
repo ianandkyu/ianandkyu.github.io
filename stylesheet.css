@@ -13,6 +13,8 @@ body{
 	margin-bottom: 20vh;
 	background-color: white;
 }
+main{
+margin:3em;}
 #caption{
 	text-align: center;
 	width:100%;
