@@ -2,7 +2,10 @@
 	/*border:1px solid black;*/
 	box-sizing: border-box;
 }
-
+@font-face{
+	font-family: 'IQ';
+  src: url('IQ-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
 body{
 	/*color:#131f75;*/
 	width:100%;
