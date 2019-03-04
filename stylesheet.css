@@ -4,7 +4,11 @@
 }
 @font-face{
 	font-family: 'IQ';
-  src: url('IQ-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('IQ-Regular.eot'); /* IE9 Compat Modes */
+  src: url('IQ-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('IQ-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('IQ-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('IQ-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 body{
 	/*color:#131f75;*/
