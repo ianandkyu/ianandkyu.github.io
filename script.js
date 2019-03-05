@@ -4,3 +4,7 @@ function titleMarquee() {
  document.title = titleText;
  setTimeout("titleMarquee()", 450);
  }
+
+ AOS.init({
+  duration: 1200,
+})
