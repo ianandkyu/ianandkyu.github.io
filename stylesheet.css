@@ -4,11 +4,11 @@
 }
 @font-face{
 	font-family: 'IQ';
-  src: url('IQ-Regular.eot'); /* IE9 Compat Modes */
-  src: url('IQ-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('IQ-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('IQ-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('IQ-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('IQ-Regular.eot'); 
+  src: url('IQ-Regular.eot?#iefix') format('embedded-opentype'), 
+       url('IQ-Regular.woff2') format('woff2'),
+       url('IQ-Regular.woff') format('woff'),
+       url('IQ-Regular.ttf')  format('truetype'); 
 }
 body{
 	/*color:#131f75;*/
@@ -36,7 +36,8 @@ header{
 	line-height: 1em;
 	width:100%;
 	text-align: center;
-	margin:.5em 0em 0em 0em;
+	margin:0em 0em 0em .1em;
+	font-feature-settings: "ss01";
 }
 
 #exclam{
@@ -87,11 +88,16 @@ h1, h2, h3{
 	color:inherit;
 	font-weight:normal;
 }
+h1{
+	text-align: center;
+}
 h2{
-	margin-right:40%;
+	text-align: left;
+	/*margin-right:40%;*/
 }
 h3{
-	margin-left:40%;
+	text-align: right;
+	/*margin-left:40%;*/
 }
 @-webkit-keyframes blink {
 	0% { opacity: 1; }
@@ -122,4 +128,31 @@ h3{
 	50% { opacity: 1; }
 	50.01% { opacity: 0; }
 	100% { opacity: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
 }
