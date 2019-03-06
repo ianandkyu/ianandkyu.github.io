@@ -64,6 +64,7 @@ header{
 }
 
 nav{
+	visibiliy:none;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
