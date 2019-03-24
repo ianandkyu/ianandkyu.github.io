@@ -8,7 +8,11 @@
 }
 @font-face{
 	font-family: 'IQ';
-    src:   url('IQGX.ttf')  format('truetype'); 
+    src: url("IQ-Light.eot");
+  src: url("IQ-Light.eot?#iefix") format("embedded-opentype"),
+  	   url("IQ-Light.woff2") format('woff2'),
+  	   url('IQ-Light.woff') format('woff'),
+  	   url('IQGX.ttf')  format('truetype');
 
 
 }
