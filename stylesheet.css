@@ -8,11 +8,9 @@
 }
 @font-face{
 	font-family: 'IQ';
-  src: url('IQ-Book.eot'); 
-  src: url('IQ-Book.eot?#iefix') format('embedded-opentype'), 
-       url('IQ-Book.woff2') format('woff2'),
-       url('IQ-Book.woff') format('woff'),
-       url('IQ-Book.ttf')  format('truetype'); 
+    src:   url('IQGX.ttf')  format('truetype'); 
+
+
 }
 body{
 	/*color:#131f75;*/
@@ -23,6 +21,7 @@ body{
 	background-color: white;
 	font-weight:normal;
 	line-height:2.2em;
+font-variation-settings: "wght" 164.562, "trap" 0, "slnt" 0;
 }
 
 #caption{
@@ -37,7 +36,7 @@ header{
 }
 #iq{
 	font-size: 666px;
-	line-height: 1em;
+	line-height: 1.3em;
 	width:100%;
 	text-align: center;
 	margin:0em 0em 0em .1em;
