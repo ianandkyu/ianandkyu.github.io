@@ -25,7 +25,8 @@ body{
 	background-color: white;
 	font-weight:normal;
 	line-height:2.2em;
-font-variation-settings: "wght" 164.562, "trap" 0, "slnt" 0;
+	font-weight:100;
+font-variation-settings: "wght" 100, "trap" 0, "slnt" 0;
 }
 
 #caption{
