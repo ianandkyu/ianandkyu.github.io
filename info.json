@@ -3,7 +3,5 @@
 	"logo" : "logo.png",
 	"about" : "!? is running together",
 	"menu" : {
-		"Book" : "https://docs.google.com/document/d/11pG5qS5I5KDqYOEk0t7Lkp8O7269PRKBNIT5no0H20E/edit",
-		"Playlist" : "https://open.spotify.com/user/waterbuket/playlist/4jTX9mtLQaqHMYHKgo2nyA?si=yq2s1TNNT_WZUevjdothdw"
-	}
+		"Book" : "https://docs.google.com/document/d/11pG5qS5I5KDqYOEk0t7Lkp8O7269PRKBNIT5no0H20E/edit"	}
 }
