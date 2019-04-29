@@ -121,7 +121,7 @@ body {
 .about{
 	border:2px solid #000
 	position: fixed;
-	font-family: "IQ";
+/* 	font-family: "IQ"; */
     letter-spacing: 0.5px;
     font-size: 14px;
     line-height: 19px;
