@@ -38,7 +38,7 @@ body {
 }
 
 #menu {
-	display:hidden;
+	display:none;
 	font-family:"IQ";
 	position: fixed;
 	left: 10px;
