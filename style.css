@@ -23,7 +23,7 @@ body {
 	position:fixed;
 	top:0;
 	right:0;
-	height: calc(100vh / 9);
+	height: calc(100vh / 9.1);
 	width:100vw;
 	background-color:#f8f9fa;
 	z-index:2;
