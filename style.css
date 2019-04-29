@@ -19,14 +19,8 @@ body {
 	height: 100%;
 	font-family:"IQ";
 }
-#hide{
-	position:fixed;
-	z-index:2;
-	top:0;
-	left:0;
-	width:100%;
-	height:calc(100% / 7);
-	background-color:white;
+#docs-chrome{
+	display:none
 }
 #background-site {
 	position: absolute;
