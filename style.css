@@ -20,8 +20,9 @@ body {
 	font-family:"IQ";
 }
 #hide{
-width:100%;
-height:calc(100% / 7);
+	width:100%;
+	height:calc(100% / 7);
+	background-color:white;
 }
 #background-site {
 	position: absolute;
