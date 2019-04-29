@@ -67,7 +67,7 @@ body {
 	z-index: 20;
 	position: fixed;
 	left: 70px;
-	top: 60px;
+	top: 1em;
 	width: 100px;
 }
     #logo-touch {
