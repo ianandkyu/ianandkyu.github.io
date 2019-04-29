@@ -19,7 +19,10 @@ body {
 	height: 100%;
 	font-family:"IQ";
 }
-
+#hide{
+width:100%;
+height:calc(100% / 7);
+}
 #background-site {
 	position: absolute;
 	width: 100%;
