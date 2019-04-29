@@ -119,17 +119,20 @@ body {
 }
 
 .about{
+	border:2px solid #000
 	position: fixed;
 	font-family: "IQ";
     letter-spacing: 0.5px;
     font-size: 14px;
     line-height: 19px;
     z-index: 100;
-    color: rgba(0, 0.8);
+    color: #000;
 	z-index: 90;
 	max-width: 277px;
 	right: 145px;
 	top: 155px;
+	padding:1em;
+	background-color:#fff;
 }
 
 /* Psuedo mobile styles for wide touch devices */
