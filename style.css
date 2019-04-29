@@ -19,8 +19,13 @@ body {
 	height: 100%;
 	font-family:"IQ";
 }
-#docs-chrome{
-	display:none
+#hide{
+	position:fixed;
+	top:0;
+	right:0;
+	height: calc(100vh / 9);
+	width:100vw;
+	background-color:#f8f9fa;
 }
 #background-site {
 	position: absolute;
