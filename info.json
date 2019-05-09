@@ -1,9 +1,11 @@
+
 {
 	"title": "!?",
 	"logo" : "logo.png",
-	"about" : "!? is running together where? I don't know somewhere. Maybe nowhere. But still we continue",
+	"about" : "!? is running together where? I don't know somewhere. Maybe nowhere.",
 	"menu" : {
 		"Book" : "https://docs.google.com/document/d/11pG5qS5I5KDqYOEk0t7Lkp8O7269PRKBNIT5no0H20E/edit?usp=sharing",
 		"Ian Griffin" : "https://ian-griffin.com",
-		"Kyu Ho Lee" : "http://kyu.webiste"}
+		"Kyu Ho Lee" : "http://kyu.website"
+	}
 }
